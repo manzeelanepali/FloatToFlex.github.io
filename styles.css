@@ -1,0 +1,211 @@
+#Top{
+    color: blue;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h1,h2{
+    color: black;
+}
+
+header{
+    width: 100%;
+    padding:16px 0;
+    background-color:green ;
+    /* position: relative; */
+
+}
+
+/* .navbar{
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-portion{
+  width: 80%;
+  margin: 0 auto;
+
+}
+    
+
+a:hover{
+    color:red;
+}
+a:active{
+    color: green;
+}
+
+/* .Blog-Intro{
+    background-color: antiquewhite;
+} */
+
+
+.image-Container img{
+    float: left;
+    margin-right: 10px;
+    height: 400px;
+    width: 600px;
+    
+
+}
+.image-Container p{
+  
+    font: 18 px;
+
+}
+
+
+
+
+/* .h1-tags{
+
+    animation: myslide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 42px;
+ 
+    
+}
+@keyframes myslide {
+    from {
+       margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+
+} */
+
+#Blog-Intro{
+    font-size: 32px;
+    
+}
+#section-2{
+    font-size: 32px;
+   
+}
+
+/* .section-second{
+    background-color: antiquewhite;
+} */
+.section-3 img, .section-4 img , .section-5 img ,.section-6 img{
+   
+    float: left;
+    margin-right: 20px;
+    height: 300px;
+    width: 400px;
+    
+  
+}
+.section-3 ,.section-4,.section-5,.section-6{
+  
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    /* padding:0px 50px; */
+
+  font-size: 18px;
+  color:gray;
+  
+
+  
+}
+
+
+table{
+    border: 1px solid #ccc;
+    width: 50%;
+    
+}
+
+
+th{
+    background-color: azure;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid;
+
+    text-align: left;
+}
+
+td{
+    font-size: 14px;
+    text-align: left;
+    padding:9px;
+    border-bottom: 1px solid;
+}
+
+tr:hover{
+    background-color:antiquewhite;
+}
+#subscribe{
+    color: red;
+}
+
+nav{
+    display: flex ;
+    gap: 30px;
+    color: black;
+    width: 100% ;
+    padding-left: 20px;
+    
+   
+}
+
+.contact-form{
+    border-collapse: collapse;
+    width: 50%;
+    padding: 20px;
+    color: green;
+    line-height: 1.6;
+    
+}
+.contact-form td{
+    padding: 10px;
+}
+
+
+button{
+    color: red;
+    
+}
+
+.form-table{
+    width: 50%;
+}
+footer{
+    font-family: "poppins",sans-serif;
+    /* width: 100%;
+    bottom: 0;   */
+    background-color: green;
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
